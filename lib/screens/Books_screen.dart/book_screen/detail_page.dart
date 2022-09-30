@@ -92,19 +92,40 @@ class _DetailsPageState extends State<DetailsPage>
                     ),
                     Stack(
                       children: <Widget>[
-                        ElevatedButton(
-                          onPressed: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => DetailPage(
-                                        authorname: widget.toString(),
-                                        bookname: widget.toString(),
-                                        imageAddress: widget.toString(),
-                                      )),
-                            ); ///////////////////////////////////////////////////////////////////////
-                          },
-                          child: Text('ISSUE'),
+                        Row(
+                          children: [
+                            ElevatedButton(
+                              onPressed: () {
+                                // Navigator.push(
+                                //   context,
+                                //   MaterialPageRoute(
+                                //       builder: (context) => DetailPage(
+                                //             authorname: widget.toString(),
+                                //             bookname: widget.toString(),
+                                //             imageAddress: widget.toString(),
+                                //           )),
+                                // ); ///////////////////////////////////////////////////////////////////////
+                              },
+                              child: Text('ISSUE'),
+                            ),
+                            SizedBox(
+                              width: 20,
+                            ),
+                            ElevatedButton(
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => DetailPage(
+                                            authorname: widget.toString(),
+                                            bookname: widget.toString(),
+                                            imageAddress: widget.toString(),
+                                          )),
+                                ); ///////////////////////////////////////////////////////////////////////
+                              },
+                              child: Text('READ NOW'),
+                            )
+                          ],
                         )
                       ],
                     ),
