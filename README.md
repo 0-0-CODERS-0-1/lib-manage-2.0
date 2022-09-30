@@ -1,16 +1,47 @@
-# library_management
+# Libreasy - A library management app
 
-A new Flutter project.
+Libreasy is an app made with **Flutter** framework and **Oracle** backend along with **ORDS** for API.
+<br>
 
-## Getting Started
+It provides book borrowing and library information services to members. It is also used to assist the librarian in maintaining the book catalogue and in book-keeping of fines.
+<br>
 
-This project is a starting point for a Flutter application.
+The backend and frontend code is attached and structured in their respective folders. Further instructions are also found inside those folders.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  - Author listings and profile.
+  - All book listings by genres.
+  - Author and book reviews and ratings.
+  - Availability of books for borrow.
+  - Borrowing books if available.
+  - Summary of book/member borrows
+  - Member accounts and profile.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div align="center"><kbd><img alt="App Tour" src="Readme_files/tour.gif" width="260" height="538" style="border-style: solid; border-color: #FFFFFF; border-width:1px;"/></kbd></div>
+<br></br>
+<div align="center">
+<img src="Readme_files/1.png" width="260" height="538"/>&nbsp;<img src="Readme_files/2.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/3.png" width="260" height="538"/><br></br>
+<img src="Readme_files/4.png" width="260" height="538"/><img src="Readme_files/5.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/6.png" width="260" height="538"/><br></br>
+<img src="Readme_files/7.png" width="260" height="538"/><img src="Readme_files/8.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/9.png" width="260" height="538"/><br></br>
+<img src="Readme_files/10.png" width="260" height="538"/><br></br>
+</div>
+
+*Feel free to fork and contribute to include new features.* ❤︎
+
+## 🚀 Technologies
+
+  - [Flutter v1.22.2](https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_1.22.4-stable.zip)
+  - [Dart v2.10.2](https://dart.dev/get-dart)
+
+## 🤝 Contribute
+
+To contribute, fork the repository and push the changes to the **master** branch. Then submit a pull request for merging with the source. If your code passes the review and checks it will be merged into the master branch.
+
+## 💬 Feedback
+
+Feel free to send us feedback on [Twitter](https://twitter.com/gitpointapp) or [file an issue](https://github.com/arafaysaleem/library_management_system/issues/new). Feature requests are always welcome.
+
+## 📝 License
+
+Licensed under the [MIT License](./LICENSE).
