@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:library_management/screens/Books_screen.dart/book_screen/Home_page.dart';
 import 'package:library_management/screens/Books_screen.dart/book_screen/profile_page.dart';
 
+import 'faq.dart';
+
 void main() => runApp(issuePage());
 
 class issuePage extends StatelessWidget {
@@ -20,135 +22,18 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  List picked = [false, false];
-
-  int totalAmount = 0;
-
-  pickToggle(index) {
-    setState(() {
-      picked[index] = !picked[index];
-      getTotalAmount();
-    });
-  }
-
-  getTotalAmount() {
-    var count = 0;
-    for (int i = 0; i < picked.length; i++) {
-      if (picked[i]) {
-        count = count + 1;
-      }
-      if (i == picked.length - 1) {
-        setState(() {
-          totalAmount = 20 * count;
-        });
-      }
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        elevation: 0,
+        title: Text('ISSUED BOOKS'),
       ),
-      body: ListView(shrinkWrap: true, children: <Widget>[
-        Column(crossAxisAlignment: CrossAxisAlignment.start, children: <Widget>[
-          Stack(children: [
-            Stack(children: <Widget>[
-              Expanded(
-                flex: 3,
-                child: Container(
-                  width: double.infinity,
-                  decoration: BoxDecoration(
-                    //this is called gradient colouring to add two color
-                    // gradient: LinearGradient(
-                    //   colors: [Colors.deepPurpleAccent, Colors.red],
-                    // ),
-                    color: Colors.blue,
-                  ),
-                  child: SizedBox(
-                    height: 180,
-                  ),
-                ),
-              ),
-              // Container(
-              //   height: MediaQuery.of(context).size.height,
-              //   width: double.infinity,
-              // ),
-              // Container(
-              //   height: 250.0,
-              //   width: double.infinity,
-              //   color: Color.fromARGB(255, 72, 166, 253),
-              // ),
-              // Positioned(
-              //   bottom: 450.0,
-              //   right: 100.0,
-              //   child: Container(
-              //     height: 400.0,
-              //     width: 400.0,
-              //     decoration: BoxDecoration(
-              //       borderRadius: BorderRadius.circular(200.0),
-              //       color: Color.fromARGB(255, 22, 150, 230),
-              //     ),
-              //   ),
-              // ),
-              // Positioned(
-              //   bottom: 500.0,
-              //   left: 150.0,
-              //   child: Container(
-              //     height: 300.0,
-              //     width: 300.0,
-              //     decoration: BoxDecoration(
-              //       borderRadius: BorderRadius.circular(150.0),
-              //       color: Color.fromARGB(255, 46, 114, 216).withOpacity(0.8),
-              //     ),
-              //   ),
-              // ),
-              Positioned(
-                  top: 75.0,
-                  left: 15.0,
-                  child: Center(
-                    child: Text(
-                      'ISSUED BOOKS',
-                      style: TextStyle(
-                          fontFamily: 'Montserrat',
-                          fontSize: 30.0,
-                          fontWeight: FontWeight.bold),
-                    ),
-                  )),
-              Positioned(
-                top: 150.0,
-                child: Column(
-                  children: <Widget>[
-                    itemCard('Harry Potter', 'gray', '20', 'assets/book1.png',
-                        true, 0),
-                    itemCard(
-                        'Quotation', 'gray', '20', 'assets/book1.png', true, 1),
-                  ],
-                ),
-              ),
-              Padding(
-                padding: EdgeInsets.only(top: 600.0, bottom: 15.0),
-                child: Container(
-                  height: 50.0,
-                  width: double.infinity,
-                  color: Colors.white,
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.end,
-                    children: <Widget>[
-                      // Text('Total Fine: Rs' + totalAmount.toString()),
-                      SizedBox(width: 10.0),
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                      )
-                    ],
-                  ),
-                ),
-              )
-            ])
-          ])
-        ])
-      ]),
+      body: Column(
+        children: <Widget>[
+          itemCard('Harry Potter', 'gray', '20', 'assets/book1.png', true, 0),
+          itemCard('Quotation', 'gray', '20', 'assets/book1.png', true, 1),
+        ],
+      ),
       bottomNavigationBar: Material(
           elevation: 7.0,
           color: Colors.white,
@@ -182,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         onTap: () {
                           Navigator.pushReplacement(
                             context,
-                            MaterialPageRoute(builder: (context) => HomePage()),
+                            MaterialPageRoute(builder: (context) => FAQs()),
                           );
                         },
                         child: Container(
@@ -237,11 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Widget itemCard(itemName, color, price, imgPath, available, i) {
     return InkWell(
-      onTap: () {
-        if (available) {
-          pickToggle(i);
-        }
-      },
+      onTap: () {},
       child: Padding(
           padding: EdgeInsets.all(10.0),
           child: Material(
@@ -273,13 +154,6 @@ class _MyHomePageState extends State<MyHomePage> {
                                       ? Container(
                                           height: 12.0,
                                           width: 12.0,
-                                          decoration: BoxDecoration(
-                                              color: picked[i]
-                                                  ? Colors.yellow
-                                                  : Colors.grey
-                                                      .withOpacity(0.4),
-                                              borderRadius:
-                                                  BorderRadius.circular(6.0)),
                                         )
                                       : Container()))
                         ],

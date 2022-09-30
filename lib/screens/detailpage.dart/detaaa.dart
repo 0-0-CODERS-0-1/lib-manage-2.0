@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:library_management/screens/Books_screen.dart/book_screen/issue.dart';
 import 'package:library_management/screens/detailpage.dart/detailpage.dart';
 //import 'package:flutterbook/common.dart';
-import 'common.dart';
-import 'book_model.dart';
+//import 'common.dart';
+import 'package:library_management/screens/Books_screen.dart/book_screen/book_model.dart';
 import 'package:library_management/screens/detailpage.dart/detailpage.dart';
 
 class DetailsPage extends StatefulWidget {
@@ -94,17 +94,15 @@ class _DetailsPageState extends State<DetailsPage>
                       children: <Widget>[
                         ElevatedButton(
                           onPressed: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => DetailPage(
-                                        authorname: widget.toString(),
-                                        bookname: widget.toString(),
-                                        imageAddress: widget.toString(),
-                                      )),
-                            ); ///////////////////////////////////////////////////////////////////////
+                           
+                           Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => DetailPage(authorname: widget.toString(),bookname: widget.toString(),imageAddress: widget.toString(),)),
+  );
+                           
+                            ///////////////////////////////////////////////////////////////////////
                           },
-                          child: Text('ISSUE'),
+                          child: Text('READ ONLINE'),
                         )
                       ],
                     ),

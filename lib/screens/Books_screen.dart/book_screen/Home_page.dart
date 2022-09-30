@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:library_management/screens/Books_screen.dart/book_screen/faq.dart';
+import 'package:library_management/screens/Books_screen.dart/book_screen/genere.dart';
 import 'package:library_management/screens/Books_screen.dart/book_screen/issue.dart';
 import 'package:library_management/screens/Books_screen.dart/book_screen/profile_page.dart';
+import 'package:library_management/screens/detailpage.dart/datahome.dart';
 //import 'package:flutter_animated_onboarding/screens/news/ArticleScreen.dart';
 
 import 'book_model.dart';
@@ -102,7 +105,7 @@ class _HomePageState extends State<HomePage>
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => HomePage()),
+                  MaterialPageRoute(builder: (context) => FAQs()),
                 );
               },
             ),
@@ -179,8 +182,9 @@ class _HomePageState extends State<HomePage>
                 child: Container(
               child: TabBarView(controller: _tabController, children: [
                 NewTabWidget(),
-                NewTabWidget(), // added the pages here to add other pages
-                NewTabWidget(),
+                genere(),
+                // added the pages here to add other pages
+                NewTabWidge(),
               ]),
             ))
           ],
@@ -200,10 +204,10 @@ class _HomePageState extends State<HomePage>
                     children: [
                       InkWell(
                         onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => HomePage()),
-                          );
+                          // Navigator.push(
+                          //   context,
+                          //   MaterialPageRoute(builder: (context) => HomePage()),
+                          // );
                         },
                         child: Container(
                           height: 50.0,
@@ -217,10 +221,10 @@ class _HomePageState extends State<HomePage>
                       ),
                       InkWell(
                         onTap: () {
-                          // Navigator.push(
-                          //   context,
-                          //   MaterialPageRoute(builder: (context) => HomePage()),
-                          // );
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => FAQs()),
+                          );
                         },
                         child: Container(
                           height: 50.0,

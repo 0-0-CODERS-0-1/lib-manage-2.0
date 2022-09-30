@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:library_management/screens/Books_screen.dart/book_screen/Home_page.dart';
 import 'package:library_management/screens/Books_screen.dart/book_screen/issue.dart';
 
+import 'faq.dart';
+
 class Profile extends StatefulWidget {
   @override
   _ProfileState createState() => _ProfileState();
@@ -252,7 +254,7 @@ class _ProfileState extends State<Profile> {
                         onTap: () {
                           Navigator.pushReplacement(
                             context,
-                            MaterialPageRoute(builder: (context) => HomePage()),
+                            MaterialPageRoute(builder: (context) => FAQs()),
                           );
                         },
                         child: Container(

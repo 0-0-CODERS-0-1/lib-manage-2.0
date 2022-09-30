@@ -9,7 +9,8 @@ class EducationTextColumn extends StatelessWidget {
   Widget build(BuildContext context) {
     return const TextColumn(
       title: 'Keep learning',
-      text: 'Ipsum magna enim cupidatat culpa elit cillum velit occaecat.',
+      text:
+          'Get access to e-books, read them or listen them with integrated book reader',
     );
   }
 }

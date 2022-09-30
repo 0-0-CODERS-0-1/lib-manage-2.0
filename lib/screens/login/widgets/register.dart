@@ -8,13 +8,16 @@ class SignupPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 200, 208, 207),
-      body: SafeArea(
+      backgroundColor: Color.fromARGB(255, 15, 175, 215),
+      body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
+            SizedBox(
+              height: 50,
+            ),
             Icon(
-              Icons.read_more_outlined,
+              Icons.book,
               size: 100,
             ),
             Text(
@@ -28,7 +31,7 @@ class SignupPage extends StatelessWidget {
               height: 10,
             ),
             Text(
-              'Welcome ,Please Fill This To Acces',
+              'Register now',
               style: TextStyle(
                 // fontWeight: FontWeight.bold,
                 fontSize: 20,
@@ -49,7 +52,7 @@ class SignupPage extends StatelessWidget {
                   padding: const EdgeInsets.only(left: 20.0),
                   child: TextField(
                     decoration: InputDecoration(
-                        border: InputBorder.none, hintText: 'AIT MERIT NO'),
+                        border: InputBorder.none, hintText: 'AIT REG NO'),
                   ),
                 ),
               ),
@@ -74,7 +77,9 @@ class SignupPage extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 20),
+            SizedBox(
+              height: 20,
+            ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 25.0),
               child: Container(
@@ -86,27 +91,6 @@ class SignupPage extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.only(left: 20.0),
                   child: TextField(
-                    decoration: InputDecoration(
-                        border: InputBorder.none, hintText: 'USERNAME'),
-                  ),
-                ),
-              ),
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 25.0),
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Colors.grey[210],
-                  border: Border.all(color: Colors.white),
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.only(left: 20.0),
-                  child: TextField(
-                    obscureText: true,
                     decoration: InputDecoration(
                         border: InputBorder.none, hintText: 'PASSWORD'),
                   ),
@@ -120,14 +104,13 @@ class SignupPage extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 25.0),
               child: Container(
                 decoration: BoxDecoration(
-                  color: Colors.grey[210],
+                  color: Colors.grey[200],
                   border: Border.all(color: Colors.white),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Padding(
                   padding: const EdgeInsets.only(left: 20.0),
                   child: TextField(
-                    obscureText: true,
                     decoration: InputDecoration(
                         border: InputBorder.none, hintText: 'RE-TYPE PASSWORD'),
                   ),
@@ -141,7 +124,7 @@ class SignupPage extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 25.0),
               child: GestureDetector(
                 onTap: () {
-                  Navigator.push(
+                  Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(builder: (context) => HomePage()),
                   );
@@ -171,7 +154,7 @@ class SignupPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  'Made With ❤️',
+                  'Made With ❤️ for ',
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
                 GestureDetector(
@@ -179,9 +162,10 @@ class SignupPage extends StatelessWidget {
 //ADD GITHUB LINK HERE
                   },
                   child: Text(
-                    '_DEVNITI_',
+                    'AIT PUNE',
                     style: TextStyle(
-                        color: Colors.blue, fontWeight: FontWeight.bold),
+                        color: Color.fromARGB(255, 255, 255, 255),
+                        fontWeight: FontWeight.bold),
                   ),
                 )
               ],

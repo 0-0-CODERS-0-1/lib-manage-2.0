@@ -8,9 +8,8 @@ class CommunityTextColumn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const TextColumn(
-      title: 'Community',
-      text:
-          'Eu sint do id aliqua qui tempor sint cillum commodo id voluptate qui.',
+      title: 'Easy to use',
+      text: 'Issue a book at your comfort and reserve it for you',
     );
   }
 }

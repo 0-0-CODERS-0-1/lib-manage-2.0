@@ -8,9 +8,9 @@ class WorkTextColumn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const TextColumn(
-      title: 'Work together',
+      title: 'Wide Range Of Books',
       text:
-          'Adipisicing anim ex excepteur duis quis in tempor eu ullamco adipisicing.',
+          'Unlimited number of book for each domain. If its not there order it',
     );
   }
 }

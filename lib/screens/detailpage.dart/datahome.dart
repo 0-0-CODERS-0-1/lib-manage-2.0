@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 
-import 'book_model.dart';
-import 'book_widget.dart';
+import 'package:library_management/screens/Books_screen.dart/book_screen/book_model.dart';
+import 'package:library_management/screens/Books_screen.dart/book_screen/book_widget.dart';
 
-class NewTabWidget extends StatefulWidget {
+class NewTabWidge extends StatefulWidget {
   @override
   _NewTabWidgetState createState() => _NewTabWidgetState();
 }
 
-class _NewTabWidgetState extends State<NewTabWidget> {
+class _NewTabWidgetState extends State<NewTabWidge> {
   @override
   Widget build(BuildContext context) {
     return Container(
       child: ListView(
         children: <Widget>[
           Container(
-            height: 200,
+            height: 230,
             //above view screen added here
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
@@ -44,18 +44,17 @@ class _NewTabWidgetState extends State<NewTabWidget> {
           SizedBox(
             height: 10,
           ),
-          Container(
-            height: 300,
-            //above view screen added here
+          Expanded(
+              child: Container(
             child: ListView.builder(
-              scrollDirection: Axis.vertical,
-              itemCount: bookList.length,
-              itemBuilder: (context, index) {
-                BookModel model = bookList[index];
-                return BookWidget(model);
-              },
-            ),
-          ),
+                shrinkWrap: true,
+                physics: NeverScrollableScrollPhysics(),
+                itemCount: bookList.length,
+                itemBuilder: (context, index) {
+                  BookModel model = bookList[index];
+                  return BookWidget(model);
+                }),
+          ))
         ],
       ),
     );

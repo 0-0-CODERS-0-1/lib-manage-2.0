@@ -12,7 +12,7 @@ class BookWidget extends StatelessWidget {
     return InkWell(
       onTap: () {
         Navigator.push(context,
-            MaterialPageRoute(builder: (context) => DetailsPage(model)));
+            MaterialPageRoute(builder: (context) => DetailsPage(model, authorname: '',)));
       },
       child: Container(
         margin: EdgeInsets.only(bottom: 10),
