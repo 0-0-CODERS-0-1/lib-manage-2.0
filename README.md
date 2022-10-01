@@ -55,10 +55,3 @@ To contribute, fork the repository and push the changes to the **master** branch
 
 Feel free to send us feedback on [Mail](prikshit4829@gmail.com). Feature requests are always welcome.
 
-## 📝 Apk file link
-
-[GET APK]()
-
-## 📝 Explanation video link
-
-[SEE EXPLANATION]()
