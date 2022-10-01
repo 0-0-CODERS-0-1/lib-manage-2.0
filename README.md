@@ -9,7 +9,7 @@ It provides book borrowing and library information services to members. It is al
 The backend and frontend code is attached and structured in their respective folders. Further instructions are also found inside those folders.
 <br>
 
-Currently the app is under development phase so some feature may not work. Moreover its a flutter app and it needs to be tested in different sized devices.
+Currently the app is under development phase so some feature may not work. Moreover its a flutter app and it needs to be tested in different sized devices.Before running the projct make sure you have latest version of flutter installed on your system
 
 ## Features
 
