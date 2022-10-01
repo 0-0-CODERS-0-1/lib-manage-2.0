@@ -15,24 +15,30 @@ The backend and frontend code is attached and structured in their respective fol
   - Author and book reviews and ratings.
   - Availability of books for borrow.
   - Borrowing books if available.
-  - Summary of book/member borrows
+  - Summary of book/member borrows.
   - Member accounts and profile.
+  - Notification is the time period of issue is about to expire.
+  - And much more.
 
 <div align="center"><kbd><img alt="App Tour" src="Readme_files/tour.gif" width="260" height="538" style="border-style: solid; border-color: #FFFFFF; border-width:1px;"/></kbd></div>
 <br></br>
 <div align="center">
-<img src="Readme_files/1.png" width="260" height="538"/>&nbsp;<img src="Readme_files/2.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/3.png" width="260" height="538"/><br></br>
-<img src="Readme_files/4.png" width="260" height="538"/><img src="Readme_files/5.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/6.png" width="260" height="538"/><br></br>
-<img src="Readme_files/7.png" width="260" height="538"/><img src="Readme_files/8.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/9.png" width="260" height="538"/><br></br>
-<img src="Readme_files/10.png" width="260" height="538"/><br></br>
+<img src="Readme_files/1.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/2.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/3.png" width="260" height="538"/><br></br>
+<img src="Readme_files/4.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/5.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/6.png" width="260" height="538"/><br></br>
+<img src="Readme_files/7.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/8.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/9.png" width="260" height="538"/><br></br>
+<img src="Readme_files/10.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/11.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/12.png" width="260" height="538"/><br></br>
+<img src="Readme_files/13.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/14.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/15.png" width="260" height="538"/><br></br>
 </div>
 
-*Feel free to fork and contribute to include new features.* ❤︎
+*New features are to be added in future* ❤︎
 
 ## 🚀 Technologies
 
-  - [Flutter v1.22.2](https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_1.22.4-stable.zip)
-  - [Dart v2.10.2](https://dart.dev/get-dart)
+  - [Flutter v3.3.1]()
+  - [Dart v2.18.0]()
+  - [Firebase]()
+  - Tools used
+  - [VS Code and Android Studio]()
 
 ## 🤝 Contribute
 
@@ -44,4 +50,4 @@ Feel free to send us feedback on [Twitter](https://twitter.com/gitpointapp) or [
 
 ## 📝 License
 
-Licensed under the [MIT License](./LICENSE).
+Licensed
