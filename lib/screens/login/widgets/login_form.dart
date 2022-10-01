@@ -31,7 +31,7 @@ class LoginForm extends StatelessWidget {
             child: const CustomInputField(
               label: 'AIT mail',
               prefixIcon: Icons.person,
-              obscureText: true,
+              obscureText: false,
             ),
           ),
           SizedBox(height: space),

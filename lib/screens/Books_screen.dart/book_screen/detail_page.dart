@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:library_management/screens/Books_screen.dart/book_screen/issue.dart';
+import 'package:library_management/screens/Books_screen.dart/book_screen/notificationmain.dart';
 import 'package:library_management/screens/detailpage.dart/detailpage.dart';
 //import 'package:flutterbook/common.dart';
 import 'common.dart';
 import 'book_model.dart';
 import 'package:library_management/screens/detailpage.dart/detailpage.dart';
+import 'package:flutter_local_notifications/src/platform_specifics/android/notification_channel.dart';
 
 class DetailsPage extends StatefulWidget {
   BookModel model;
@@ -96,15 +98,11 @@ class _DetailsPageState extends State<DetailsPage>
                           children: [
                             ElevatedButton(
                               onPressed: () {
-                                // Navigator.push(
-                                //   context,
-                                //   MaterialPageRoute(
-                                //       builder: (context) => DetailPage(
-                                //             authorname: widget.toString(),
-                                //             bookname: widget.toString(),
-                                //             imageAddress: widget.toString(),
-                                //           )),
-                                // ); ///////////////////////////////////////////////////////////////////////
+                               
+                               
+                               
+                               
+                                ///////////////////////////////////////////////////////////////////////
                               },
                               child: Text('ISSUE'),
                             ),
@@ -124,7 +122,11 @@ class _DetailsPageState extends State<DetailsPage>
                                 ); ///////////////////////////////////////////////////////////////////////
                               },
                               child: Text('READ NOW'),
-                            )
+                            ),
+                            SizedBox(
+                              width: 20,
+                            ),
+                           
                           ],
                         )
                       ],
@@ -180,6 +182,9 @@ class _DetailsPageState extends State<DetailsPage>
           ],
         ),
       ),
+
+ 
+
     );
   }
 

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:library_management/screens/Books_screen.dart/book_screen/faq.dart';
 import 'package:library_management/screens/Books_screen.dart/book_screen/genere.dart';
 import 'package:library_management/screens/Books_screen.dart/book_screen/issue.dart';
+import 'package:library_management/screens/Books_screen.dart/book_screen/payment.dart';
 import 'package:library_management/screens/Books_screen.dart/book_screen/profile_page.dart';
 import 'package:library_management/screens/detailpage.dart/datahome.dart';
 //import 'package:flutter_animated_onboarding/screens/news/ArticleScreen.dart';
@@ -94,6 +95,18 @@ class _HomePageState extends State<HomePage>
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => HomePage()),
+                );
+              },
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.money,
+              ),
+              title: const Text('Fine Payment'),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SignupPag()),
                 );
               },
             ),
