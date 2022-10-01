@@ -24,17 +24,20 @@ Currently the app is under development phase so some feature may not work. Moreo
   - Notification when issue period is about to expire.
   - And much more.
 
-<div align="center"><kbd><img alt="App Tour" src="Readme_files/tour.gif" width="260" height="538" style="border-style: solid; border-color: #FFFFFF; border-width:1px;"/></kbd></div>
-<br></br>
-<div align="center">
-<img src="Readme_files/1.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/2.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/3.png" width="260" height="538"/><br></br>
-<img src="Readme_files/4.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/5.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/6.png" width="260" height="538"/><br></br>
-<img src="Readme_files/7.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/8.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/9.png" width="260" height="538"/><br></br>
-<img src="Readme_files/10.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/11.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/12.png" width="260" height="538"/><br></br>
-<img src="Readme_files/13.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/14.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/15.png" width="260" height="538"/><br></br>
-</div>
+## Screenshot and Screen Recording
+  <div align="center"><kbd><img alt="App Tour" src="Readme_files/tour.gif" width="260" height="538" style="border-style: solid; border-color: #FFFFFF; border-width:1px;"/></kbd></div>
+  <br></br>
+  <div align="center">
+  <img src="Readme_files/1.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/2.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/3.png" width="260" height="538"/><br></br>
+  <img src="Readme_files/4.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/5.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/6.png" width="260" height="538"/><br></br>
+  <img src="Readme_files/7.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/8.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/9.png" width="260" height="538"/><br></br>
+  <img src="Readme_files/10.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/11.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/12.png" width="260" height="538"/><br></br>
+  <img src="Readme_files/13.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/14.png" width="260" height="538"/>&nbsp;&nbsp;<img src="Readme_files/15.png" width="260" height="538"/><br></br>
+  <img src="Readme_files/16.png" width="1000" height="538"/><br></br>
+  <img src="Readme_files/17.png" width="1000" height="538"/><br></br>
+  </div>
 
-*New features are to be added in future* ❤︎
+  *New features are to be added in future* ❤︎
 
 ## 🚀 Technologies
 
@@ -50,7 +53,7 @@ To contribute, fork the repository and push the changes to the **master** branch
 
 ## 💬 Feedback
 
-Feel free to send us feedback on [Gmail](prikshit4829@gmail.com). Feature requests are always welcome.
+Feel free to send us feedback on [Mail](prikshit4829@gmail.com). Feature requests are always welcome.
 
 ## 📝 Apk file link
 
