@@ -1,12 +1,15 @@
-# Libreasy - A library management app
+# AIT E-Library - A library management app
 
-Libreasy is an app made with **Flutter** framework and **Oracle** backend along with **ORDS** for API.
+E-Library is an app made with **Flutter** framework and **Firebase** backend.The feature of using flutter app is that it work on android as well as ios devices.
 <br>
 
-It provides book borrowing and library information services to members. It is also used to assist the librarian in maintaining the book catalogue and in book-keeping of fines.
+It provides book borrowing and library information services to members. It is also used to assist the librarian in maintaining the book catalogue and in book-keeping of fines.One of the main feature on which we are working is user will get a notifictio if the issue period is about to expire.
 <br>
 
 The backend and frontend code is attached and structured in their respective folders. Further instructions are also found inside those folders.
+<br>
+
+Currently the app is under development phase so some feature may not work. Moreover its a flutter app and it needs to be tested in different sized devices.
 
 ## Features
 
@@ -17,7 +20,8 @@ The backend and frontend code is attached and structured in their respective fol
   - Borrowing books if available.
   - Summary of book/member borrows.
   - Member accounts and profile.
-  - Notification is the time period of issue is about to expire.
+  - FAQ's section.
+  - Notification when issue period is about to expire.
   - And much more.
 
 <div align="center"><kbd><img alt="App Tour" src="Readme_files/tour.gif" width="260" height="538" style="border-style: solid; border-color: #FFFFFF; border-width:1px;"/></kbd></div>
@@ -46,8 +50,12 @@ To contribute, fork the repository and push the changes to the **master** branch
 
 ## 💬 Feedback
 
-Feel free to send us feedback on [Twitter](https://twitter.com/gitpointapp) or [file an issue](https://github.com/arafaysaleem/library_management_system/issues/new). Feature requests are always welcome.
+Feel free to send us feedback on [Gmail](prikshit4829@gmail.com). Feature requests are always welcome.
 
-## 📝 License
+## 📝 Apk file link
 
-Licensed
+[GET APK]()
+
+## 📝 Explanation video link
+
+[SEE EXPLANATION]()
